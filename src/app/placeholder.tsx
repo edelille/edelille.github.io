@@ -53,6 +53,7 @@ export default function Page() {
             >
             <Stack alignItems='center'>
                 <Typography variant='h1' align='center' sx={{ }}>Hi, I am Lam</Typography>
+                <Typography variant='subtitle1' align='center' sx={{ 'marginBottom' : '1rem'}}>A Software Developer by Profession</Typography>
                 <Typography variant='h5' component="h2" align='center' sx={{ 'width': '100%' }}>You have visited my personal website</Typography>
                 <Typography variant='h6' component="h3" align='center' sx={{ 'width': '100%' }}>
                     I am still building things <BuildIcon sx={{ 'marginBottom': '-5px'}}/> right now
