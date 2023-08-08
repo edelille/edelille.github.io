@@ -11,12 +11,9 @@ import {
     Typography,
 } from '@mui/material'
 
-
-import {
-    useState
-} from 'react'
 import BuildIcon from '@mui/icons-material/Build';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import { useState } from 'react'
 
 export default function Page() {
 
@@ -86,7 +83,7 @@ export default function Page() {
                     I hope you enjoyed clicking the button
                 </Typography>
                 <Divider sx={{'borderColor': 'white', 'height': '3rem'}}/>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/5LbFdY6vGsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/5LbFdY6vGsQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> 
                         </>}
                 <Typography variant='h4' align='center' sx={{ 'marginTop': '1rem', 'color': 'black'}}>
                     Check back in a little bit okay 🫵
