@@ -76,10 +76,10 @@ export default function Page() {
                 }
                 { voteValue >= 50 && <>
 
-                <Typography variant='h3' align='center' sx={{ 'marginTop': '1rem', 'color': 'blue'}}>
+                <Typography variant='h3' align='center' sx={{ 'marginTop': '1rem', 'color': 'black'}}>
                     50!! 
                 </Typography>
-                <Typography variant='h5' align='center' sx={{ 'color': 'blue'}}>
+                <Typography variant='h5' align='center' sx={{ 'color': 'black'}}>
                     <Divider sx={{'borderColor': 'white'}}/>
                     You win, here&apos;s a song I liked recently for a reward.
                     <Divider sx={{'borderColor': 'white'}}/>
@@ -88,6 +88,12 @@ export default function Page() {
                 <Divider sx={{'borderColor': 'white', 'height': '3rem'}}/>
                <iframe width="560" height="315" src="https://www.youtube.com/embed/5LbFdY6vGsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                         </>}
+                <Typography variant='h4' align='center' sx={{ 'marginTop': '1rem', 'color': 'black'}}>
+                    Check back in a little bit okay 🫵
+                </Typography>
+                <Typography variant='h6' align='center' sx={{ 'marginTop': '1rem', 'width': '40rem', 'color': 'black'}}>
+                    Going to have some cool data science, math, visualizations and more! All at a low price of free ninety nine
+                </Typography>
             </Stack>
             </Card>
         </Box>
